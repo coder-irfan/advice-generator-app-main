@@ -1,0 +1,73 @@
+@use "function" as x;
+
+.main {
+    position: relative;
+    background-color: $blue-900;
+    margin: 0 auto;
+    text-align: center;
+    padding: x.rem(40) x.rem(24);
+    border-radius: x.rem(10);
+    max-width: x.rem(540);
+
+    @include breakpoint("medium") {
+        padding: x.rem(50) x.rem(47) x.rem(60);
+        border-radius: x.rem(15);
+    }
+
+    &__title {
+        font-size: x.rem(11);
+        color: $green-300;
+        text-transform: uppercase;
+        letter-spacing: x.rem(4);
+
+        @include breakpoint("medium") {
+            font-size: x.rem(14);
+        }
+    }
+
+    &__advice {
+        margin-top: x.rem(20);
+        margin-bottom: x.rem(20);
+        font-size: x.rem(23);
+        color: $blue-200;
+
+        @include breakpoint("medium") {
+            margin-top: x.rem(30);
+            margin-bottom: x.rem(45);
+            font-size: $font-size;
+        }
+    }
+
+    &__img {
+        background-image: url('/images/pattern-divider-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: x.rem(10);
+
+        @include breakpoint("medium") {
+            background-image: url('/images/pattern-divider-desktop.svg');
+            padding-bottom: 0;
+        }
+    }
+
+    &__btn {
+        position: absolute;
+        left: 50%;
+        bottom: x.rem(-29);
+        transform: translateX(-50%);
+        background-color: $green-300;
+        border: none;
+        padding: x.rem(13) x.rem(15);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: .3s;
+
+        &:hover {
+            box-shadow: x.rem(0) x.rem(0) x.rem(25) $green-300;
+        }
+
+        @include breakpoint("medium") {
+            padding: x.rem(15) x.rem(17);
+        }
+    }
+}

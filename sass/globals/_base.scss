@@ -1,0 +1,25 @@
+@use "function" as m;
+@import "variable";
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: $primary-family;
+    font-weight: 700; 
+    background-color: $blue-950;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: m.rem(0) m.rem(16);
+}
+
