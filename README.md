@@ -4,7 +4,7 @@ This is my solution to the [Advice Generator App challenge](https://www.frontend
 
 ## 🚀 Live Site
 
-🔗 [Click here to view the live project](https://mohammad-irfan-noorzada.github.io/advice-generator-app-main)
+🔗 [Click here to view the live project](https://coder-irfan.github.io/advice-generator-app-main)
 
 ## 🛠 Built With
 
@@ -29,7 +29,7 @@ This is my solution to the [Advice Generator App challenge](https://www.frontend
 
 ## 🙋‍♂️ Author
 
-- GitHub: [@Mohammad-Irfan-Noorzada](https://github.com/Mohammad-Irfan-Noorzada)
+- GitHub: [@Mohammad-Irfan-Noorzada](https://github.com/coder-irfan)
 - Frontend Mentor: [@Mohammad-Irfan-Noorzada](https://www.frontendmentor.io/profile/Mohammad-Irfan-Noorzada)
 
 ---
