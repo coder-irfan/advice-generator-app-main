@@ -29,7 +29,7 @@ This is my solution to the [Advice Generator App challenge](https://www.frontend
 
 ## 🙋‍♂️ Author
 
-- GitHub: [@Mohammad-Irfan-Noorzada](https://github.com/coder-irfan)
+- GitHub: [@coder-irfan](https://github.com/coder-irfan)
 - Frontend Mentor: [@Mohammad-Irfan-Noorzada](https://www.frontendmentor.io/profile/Mohammad-Irfan-Noorzada)
 
 ---
